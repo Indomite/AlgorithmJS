@@ -1,3 +1,4 @@
+//寻找中位数
 var findMedianSortedArrays = function(nums1, nums2) {
     let res = []
     res = nums1.concat(nums2)
