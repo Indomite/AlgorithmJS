@@ -1,3 +1,4 @@
+// 寻找重复数字
 var findRepeatNumber = function(nums) {
     for(let i=0;i < nums.length;i++){
         let ans = nums[i]
