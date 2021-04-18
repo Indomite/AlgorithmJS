@@ -1,3 +1,8 @@
+//买卖股票的最佳时机
+/* 
+    整体思路：
+    不断获取最小的价格然后用当前的价格相减最后比较
+*/
 var maxProfit = function(prices) {
     let max = 0
     let minPrice = prices[0]

@@ -1,8 +1,15 @@
-// var merge = function(nums1, m, nums2, n) {
-//     nums1.splice(m, nums1.length - m, ...nums2);
-//     nums1.sort((a, b) => a - b);
-//     return nums1
-// };
+//合并两个有序数组
+/* 
+    整体思路：
+    直接将两个数组合并之后然后排序
+    或者采用双指针的方式将元素按序插入数组中
+*/
+
+/* var merge = function(nums1, m, nums2, n) {
+    nums1.splice(m, nums1.length - m, ...nums2);
+    nums1.sort((a, b) => a - b);
+    return nums1
+}; */
 
 // 双指针
 var merge = function(nums1, m, nums2, n) {

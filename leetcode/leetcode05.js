@@ -1,3 +1,8 @@
+//最长回文子串
+/* 
+    整体思路：
+    动态规划，用数组标记状态
+*/
 var longestPalindrome = function(s) {
     let n = s.length;
     let res = '';

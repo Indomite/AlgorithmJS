@@ -1,3 +1,10 @@
+//最大子序列和
+/* 
+    整体思路：
+    循环遍历，将数组中间的和相加到一起
+    动态规划，其实两种方式的思路还是相似的
+*/
+
 var maxSubArray = function(nums) {
     let res = nums[0]
     let sum = 0
