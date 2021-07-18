@@ -1,3 +1,5 @@
+// 打印从1到最大的n位数
+
 var printNumbers = function(n) {
   let max = 1;
   while(n !== 0){

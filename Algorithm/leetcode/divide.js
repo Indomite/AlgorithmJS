@@ -1,3 +1,5 @@
+// 两数相除
+
 var divide = function (dividend, divisor) {
   if (!divisor) return;
   if (divisor === 1) return dividend;

@@ -1,4 +1,5 @@
 //外观数列
+
 var countAndSay = function(n) {
     if(n==1){
         return n.toString()
