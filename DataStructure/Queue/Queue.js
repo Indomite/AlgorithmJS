@@ -44,6 +44,8 @@ class Queue {
   }
 }
 
+exports.createStack = Queue
+
 const newQueue = new Queue()
 
 newQueue.entry(1)
