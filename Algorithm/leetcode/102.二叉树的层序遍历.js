@@ -22,14 +22,14 @@ var levelOrder = function(root) {
   queue.push(root);
   if(root === null) return res;
   while(queue.length) {
-    let length=queue.length;
-    let curLevel=[];
-    for(let i=0;i<length;i++){
-      let node=queue.shift();
+    let length = queue.length;
+    let curLevel = [];
+    for(let i = 0; i < length; i++) {
+      let node = queue.shift();
       curLevel.push(node.val);
       // 存放当前层下一层的节点
-      node.left&&queue.push(node.left);
-      node.right&&queue.push(node.right);
+      node.left && queue.push(node.left);
+      node.right && queue.push(node.right);
     }
     res.push(curLevel);
   }
