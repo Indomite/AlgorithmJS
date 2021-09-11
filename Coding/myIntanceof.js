@@ -7,7 +7,7 @@ function myInstanceof (left, right) {
   while(true) {
     if(!proto) return false;
     if(proto === prototype) return true;
-    proto = Object.getPrototypeOf(proto);
+      proto = Object.getPrototypeOf(proto);
   }
 }
 
